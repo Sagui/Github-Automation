@@ -22,7 +22,7 @@
 
 - Clone the repo
 - Install dependencies with `yarn install` / `npm install`
-- Set environment variables in your system OR create `.env` in the project root and update with [BrowserStack Username and Access Key](https://www.browserstack.com/accounts/settings) also update .gitignore file adding .env
+- Set environment variables in your system OR create `.env` in the project root and update with [BrowserStack Username and Access Key](https://www.browserstack.com/accounts/settings) 
 
 Like this:
 
