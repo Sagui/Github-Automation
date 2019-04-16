@@ -5,7 +5,7 @@ export const siteCredentials = {
 }
 
 export const randomRepoName = () => {
-  var repoName = ''
+  var repoName = 'Test'
   var length = 10
   var possible =
     'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789'
