@@ -20,7 +20,8 @@
 
 ## Setup
 
-- Clone the repo
+- Clone the repo or unzip the folder with files
+- Go to the master of the project in the cmd
 - Install dependencies with `yarn install` / `npm install`
 - Set environment variables in your system OR create `.env` in the project root and update with [BrowserStack Username and Access Key](https://www.browserstack.com/accounts/settings) 
 
