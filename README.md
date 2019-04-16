@@ -30,9 +30,12 @@ Like this:
 BROWSERSTACK_USERNAME=monocleman
 BROWSERSTACK_ACCESS_KEY=nTnrxYTqE55jeklwks
 ```
-## Git
+
 ## Running the tests
 
 - To run the tests:
 
 - `yarn tests` / `npm run tests`
+
+## Git Scenarios tests
+Three specs runs will be the result of running the tests: Login spec, Private repo creation & Public repo creation.
