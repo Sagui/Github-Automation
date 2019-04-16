@@ -16,21 +16,21 @@ exports.config = {
       os: 'OS X',
       resolution: '1920x1080',
       os_version: 'High Sierra',
-      project: 'Monocle',
-      name: 'Monocle e2e Tests',
-      build: 'Monocle'
+      project: 'Github Test',
+      name: 'Github e2e Tests',
+      build: 'GitTest'
     }
   ],
 
   logLevel: 'verbose',
   coloredLogs: true,
   screenshotPath: './errorShots/',
-  baseUrl: 'http://the-internet.herokuapp.com',
+  baseUrl: 'https://github.com/',
   waitforTimeout: 90000,
   connectionRetryTimeout: 90000,
   connectionRetryCount: 3,
   host: 'hub.browserstack.com',
-
+  port: 80,
   framework: 'mocha',
   mochaOpts: {
     timeout: 30000,
